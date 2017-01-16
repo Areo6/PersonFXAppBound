@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" 
+      fx:controller="personfxappbound.PersonFXAppBoundController" alignment="CENTER" spacing="20"
+      style="-fx-backgroung-color:linear-gradient(aliceblue,lightblue);">
+    <Label fx:id="malabaLabel"/>
+    <Button text="Change Malaba" onAction="#changeButtonAction" />
+    <Button text="Reset Malaba" onAction="#resetButtonAction" />
+          
+</VBox>
